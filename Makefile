@@ -46,4 +46,6 @@ SRCS=	acu.c acutab.c cmds.c cmdtab.c cu.c hunt.c partab.c \
 # -- remote.o depends on the Makefile because of DEFBR and DEFFS
 acutab.o remote.o: Makefile
 
+#SRCS+=	closefrom.c strtoi.c
+
 .include <bsd.prog.mk>

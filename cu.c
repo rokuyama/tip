@@ -42,6 +42,8 @@ __RCSID("$NetBSD: cu.c,v 1.24 2019/08/18 14:16:02 christos Exp $");
 
 #include "tip.h"
 
+#include "nbcompat.h"
+
 __dead static void cuhelp(void);
 __dead static void cuusage(void);
 

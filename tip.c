@@ -54,6 +54,8 @@ __RCSID("$NetBSD: tip.c,v 1.63 2020/04/23 00:35:14 joerg Exp $");
 #include "tip.h"
 #include "pathnames.h"
 
+#include "nbcompat.h"
+
 struct termios	term;
 struct termios	defterm;
 struct termios	defchars;

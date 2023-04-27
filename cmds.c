@@ -40,6 +40,8 @@ __RCSID("$NetBSD: cmds.c,v 1.37 2014/07/12 05:28:07 mlelstv Exp $");
 #include "tip.h"
 #include "pathnames.h"
 
+#include "nbcompat.h"
+
 /*
  * tip
  *
